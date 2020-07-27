@@ -1,0 +1,41 @@
+{
+	"Renderer": {
+		"Rotation.X": [0, 0, 0.2, 0.001],
+		"Rotation.Y": [0.003, 0, 0.2, 0.001],
+		"Rotation.Z": [0, 0, 0.2, 0.001]
+	},
+	"Geometry": {
+		"Ocean": {
+			"Radius": [400, 1, 1000],
+			"Segments.Width": [50, 0, 600],
+			"Segments.Height": [56, 0, 600],
+			"Vertices.Position.Random": [10, 0, 200]
+		},
+		"Ground": {
+			"Radius": [398, 1, 1000],
+			"Segments.Width": [30, 0, 600],
+			"Segments.Height": [30, 0, 600],
+			"Vertices.Position.Random": [40, 0, 200]
+		},
+		"HighGround": {
+			"Radius": [390, 1, 1000],
+			"Segments.Width": [20, 0, 600],
+			"Segments.Height": [20, 0, 600],
+			"Vertices.Position.Random": [40, 0, 200]
+		}
+	},
+	"Material": {
+		"Ocean": {
+			"Color": "randomHexadecimalColor()",
+			"Color.Random()": "randomHexadecimalColor()"
+		},
+		"Ground": {
+			"Color": "randomHexadecimalColor()",
+			"Color.Random()": "randomHexadecimalColor()"
+		},
+		"HighGround": {
+			"Color": "randomHexadecimalColor()",
+			"Color.Random()": "randomHexadecimalColor()"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"Color": "#102126",
+	"Lights": {
+		"DirectionalLight_1": {
+			"Color": "#ffffff",
+			"Position.X": [1, -50, 50],
+			"Position.Y": [1, -50, 50],
+			"Position.Z": [1, -50, 50]
+		},
+		"AmbientLight_1": {
+			"Color": "#2e1527"
+		}
+	}
+}
